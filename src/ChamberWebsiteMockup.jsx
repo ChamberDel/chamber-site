@@ -2,6 +2,13 @@ export default function ChamberWebsiteMockup() {
   return (
     <main className="bg-white text-black font-sans">
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+	      
+		{/* Add this image tag below */}
+		<img
+		  src="/chamber-icon.png"
+          alt="Chamber Logo"
+          className="w-24 mx-auto mb-4"
+        />
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Precision Living. Delivered.</h1>
         <p className="mt-4 text-lg md:text-xl max-w-xl">Modular homes engineered to outlast and outshine. Wind-rated to 200mph. Built with elegance, strength, and simplicity.</p>
         <div className="mt-6 space-x-4">
